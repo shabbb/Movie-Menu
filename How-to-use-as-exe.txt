@@ -1,0 +1,2 @@
+Use launch4j: http://launch4j.sourceforge.net/
+Tutorial: https://www.youtube.com/watch?v=NRptmWyrvvo
