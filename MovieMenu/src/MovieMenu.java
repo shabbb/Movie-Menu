@@ -140,7 +140,7 @@ public class MovieMenu extends Frame implements ActionListener{
 			{
 			//	System.out.println(m.getName());
 			//	System.out.println(counter);
-				if (m != null) {
+			//	if (m != null) {
 			//	System.out.println(m.getName());
 			//	System.out.println(counter);
 				extensionName = FilenameUtils.getExtension(m.getName());
@@ -156,7 +156,7 @@ public class MovieMenu extends Frame implements ActionListener{
 					//System.out.println(m.getAbsolutePath());
 					findMovies(m.getAbsolutePath());
 				}
-				}
+				// }
 			}
 		}
 		
