@@ -121,6 +121,15 @@ public class MovieMenu extends Frame implements ActionListener{
 		MovieMenu application = new MovieMenu();
 	}
 	//int counter = 0;
+	
+	//following method modified from stackoverflow
+	//URL: https://stackoverflow.com/questions/14676407/list-all-files-in-the-folder-and-also-sub-folders
+	//asker username: Mostafa Jamareh
+	//Mostafa Jamareh's profile page: https://stackoverflow.com/users/2034653/mostafa-jamareh
+	//answered by Nathan and edited by pmartin8
+	//Nathan's profile page: https://stackoverflow.com/users/1745268/nathan
+	//pmartin8's profile page: https://stackoverflow.com/users/1400157/pmartin8
+	
 	public void findMovies(String movieDirectory)
 	{
 		File movieFiles = new File(movieDirectory);
