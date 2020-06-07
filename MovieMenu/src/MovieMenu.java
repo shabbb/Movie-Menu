@@ -39,6 +39,14 @@ public class MovieMenu extends Frame implements ActionListener{
 		
 		BoxLayout movies = new BoxLayout(movie, BoxLayout.Y_AXIS);
 		movie.setLayout(movies);
+		
+		//scroll pane code from stackoverflow
+		//URL: https://stackoverflow.com/questions/23747894/how-do-i-put-a-scrollpane-on-a-boxlayout
+		//asker username: Doug Hauf
+		//Doug Hauf's profile page: https://stackoverflow.com/users/2487995/doug-hauf
+		//answered by Braj
+		//Braj's profile page: https://stackoverflow.com/users/3218114/braj
+		
 		JScrollPane movieListScroll = new JScrollPane(movie);
 		movieListScroll.getVerticalScrollBar().setUnitIncrement(20);
 		//movieListScroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
@@ -129,6 +137,16 @@ public class MovieMenu extends Frame implements ActionListener{
 	//answered by Nathan and edited by pmartin8
 	//Nathan's profile page: https://stackoverflow.com/users/1745268/nathan
 	//pmartin8's profile page: https://stackoverflow.com/users/1400157/pmartin8
+	
+	//may have used following stackoverflow link as well
+	//URL: https://stackoverflow.com/questions/2534632/list-all-files-from-a-directory-recursively-with-java
+	//asker username: Hultner
+	//question edited by: Daryl Bennett
+	//Hultner's profile page: https://stackoverflow.com/users/274752/hultner
+	//Daryl Bennett's profile page: https://stackoverflow.com/users/2083854/daryl-bennett
+	//answered by skaffman and edited by Pang
+	//skaffman's profile page: https://stackoverflow.com/users/21234/skaffman
+	//Pang's profile page: https://stackoverflow.com/users/1402846/pang
 	
 	public void findMovies(String movieDirectory)
 	{
